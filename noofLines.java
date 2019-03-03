@@ -1,7 +1,7 @@
 import java.util.*;
 public class MyClass {
     public static void main(String args[]) {
-        String str = "first.second";
+       Scanner sc = new Scanner(System.in);
         String result = "";
         int count = 0, index = 0;
         for(int i=0; i<str.length(); i++){
